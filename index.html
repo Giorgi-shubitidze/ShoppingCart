@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">E-commerce</div>
+        <div class="search">
+            <input type="search">
+            <img src="./images/search.png" alt="">
+        </div>
+        <div class="header-right">
+            <div class="counter" id="count">0</div>
+            <div class="cart"><img src="./images/cart.png" alt=""></div>
+            <div class="profile">PF</div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="card">
+            <img src="./images/hoodie.png" alt="">
+            <strong id="title">365 Hoodie - Neutral Tones—black</strong>
+            <h2>Price: 30 $</h2>
+            <button id="button">B u y</button>
+        </div>
+        <div class="card">
+            <img src="./images/nike.png" alt="" style="transform: translateY(50px);">
+            <strong id="title">Nike Air Force 1 Mid Black/White</strong>
+            <h2>Price: 55 $</h2>
+            <button id="button">B u y</button>
+        </div>
+        <div class="card">
+            <img src="./images/pants.png" alt="">
+            <strong id="title">365 Track Pants - Neutral Tones</strong>
+            <h2>Price: 43 $</h2>
+            <button id="button">B u y</button>
+        </div>
+        <div class="card">
+            <img src="./images/shirt.png" alt="">
+            <strong id="title">Organic Cotton T-shirt with C-FIBER™ Core</strong>
+            <h2>Price: 65 $</h2>
+            <button id="button">B u y</button>
+        </div>
+        <div class="card">
+            <img src="./images/baclpack.png" alt="">
+            <strong id="title">Nylon Padded Backpack</strong>
+            <h2>Price: 25 $</h2>
+            <button id="button">B u y</button>
+        </div>
+        <div class="card">
+            <img src="./images/slippers.png" alt="">
+            <strong id="title">Jersey Slippers</strong>
+            <h2>Price: 59 $</h2>
+            <button id="button">B u y</button>
+        </div>
+    </main>
+    <div class="cart-display">
+        <div class="arrow" id="arrow"><img src="./images/arrowLeft.png" alt="" width="35px"></div>
+        <ul id="ul">
+            <p id="cartEmpty">Your Cart is Empty</p>
+        </ul>
+        <div class="buy">
+            <h1 id="total">Total: 0$</h1>
+            <button>Order</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
